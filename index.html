@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lezione21</title>
+    <link rel="preconnect" href="https://fonts.bunny.net" />
+    <link
+      href="https://fonts.bunny.net/css?family=nunito:400|source-serif-4:600"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/assets/index-CXbIQ3B8.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DCzx4nhD.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#">Chi siamo</a>
+              <a class="nav-link" href="#">Servizi</a>
+              <a class="nav-link" href="#">Contatti</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section
+        id="hero"
+        class="w-100 min-vh-100 d-flex align-items-center justify-content-center text-center"
+      >
+        <div class="container">
+          <h1>Vite - Bootstrap - Git - Github</h1>
+          <hr class="w-25 border border-3 border-primary opacity-100 mx-auto" />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati
+            eveniet excepturi nemo officiis doloribus praesentium?
+          </p>
+          <a href="#contatti" class="btn btn-primary">Clicca qui</a>
+        </div>
+      </section>
+      <section
+        id="chi-siamo"
+        class="py-5 w-100 bg-secondary text-center text-light"
+      >
+        <div class="container py-5">
+          <h2>Chi siamo</h2>
+          <hr class="w-25 border border-3 border-light opacity-100 mx-auto" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+            quisquam corrupti accusantium? Eius, commodi recusandae.
+          </p>
+          <a href="#servizi" class="btn btn-light">Clicca qui</a>
+        </div>
+      </section>
+      <section id="servizi" class="w-100 py-5 text-center">
+        <div class="container py-5">
+          <h2>I nostri servizi</h2>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <div class="card" style="width: 100%">
+                <img
+                  src="https://images.unsplash.com/photo-1553877522-43269d4ea984"
+                  class="card-img-top object-fit-cover"
+                  alt="..."
+                  height="300"
+                  width="100%"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card’s content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="card" style="width: 100%">
+                <img
+                  src="https://images.unsplash.com/photo-1513530534585-c7b1394c6d51"
+                  class="card-img-top object-fit-cover"
+                  alt="..."
+                  height="300"
+                  width="100%"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card’s content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="card" style="width: 100%">
+                <img
+                  src="https://images.unsplash.com/photo-1556745753-b2904692b3cd"
+                  class="card-img-top object-fit-cover"
+                  alt="..."
+                  height="300"
+                  width="100%"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card’s content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contatti" class="w-100 py-5 text-center">
+        <div class="container py-5">
+          <h2>Contattaci</h2>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <form
+            action=""
+            method="post"
+            class="needs-validation text-start w-50 mx-auto"
+            id="form-contatti"
+            novalidate
+          >
+            <div class="mb-3">
+              <label for="nome" class="form-label">Il tuo nome</label
+              ><input
+                type="text"
+                name="nome"
+                id="nome"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="oggetto" class="form-label">Oggetto</label
+              ><input
+                type="text"
+                name="oggetto"
+                id="oggetto"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">La tua email</label
+              ><input
+                type="email"
+                name="email"
+                id="email"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="messaggio" class="form-label">Il tuo messaggio</label
+              ><textarea
+                name="messaggio"
+                id="messaggio"
+                cols="30"
+                rows="10"
+                class="form-control"
+                required
+              ></textarea>
+            </div>
+            <div class="mb-3">
+              <button
+                type="submit"
+                class="btn btn-primary"
+                form="form-contatti"
+              >
+                Invia messagio
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section id="info" class="w-100 py-5 text-center bg-primary">
+        <div class="container">
+          <p>Sito creato da Alex Grottola</p>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
